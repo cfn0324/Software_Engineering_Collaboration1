@@ -445,7 +445,7 @@ export default {
 	}
 	
 	.container {
-		background-image: url("http://codegen.caihongy.cn/20201110/8f9e1d94bb6243aba9de49b67bc3b5a7.jpg");
+		background-image: url("/pic/2.JPG");
 		height: 100vh;
 		background-position: center center;
 		background-size: cover;
