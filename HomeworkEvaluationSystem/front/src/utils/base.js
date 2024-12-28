@@ -9,7 +9,7 @@ const base = {
     },
     getProjectName(){
         return {
-            projectName: "师生共评的作业管理系统"
+            projectName: "作业管理系统"
         } 
     }
 }

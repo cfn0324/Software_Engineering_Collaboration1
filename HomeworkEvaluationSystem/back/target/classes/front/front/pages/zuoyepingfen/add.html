@@ -50,7 +50,7 @@
 			border-style: solid;
 			border-color: rgba(0,0,0,.3);
 			border-radius: 6px;
-			background-color: rgba(160, 67, 26, 1);
+			background-color: rgba(0, 128, 128, 1);
 			box-shadow: 0 0 6px rgba(255,0,0,.8);
 		}
 		
@@ -62,11 +62,11 @@
 			padding: 0 12px;
 			height: 40px;
 			font-size: 15px;
-			color: rgba(160, 67, 26, 1);
+			color: rgba(0, 128, 128, 1);
 			border-radius: 4px;
 			border-width: 1px;
 			border-style: solid;
-			border-color: rgba(160, 67, 26, 1);
+			border-color: rgba(0, 128, 128, 1);
 			background-color: #fff;
 			box-shadow: 0 0 0px rgba(255,0,0,.8);
 			text-align: center;
@@ -114,58 +114,58 @@
 			</div>
 			<!-- 轮播图 -->
 
-			<div class="data-add-container" :style='{"padding":"20px","boxShadow":"0px rgba(160, 67, 26, 1)","margin":"30px auto","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"rgba(255, 255, 255, 0)","borderRadius":"10px","borderWidth":"1px","borderStyle":"solid"}'>
+			<div class="data-add-container" :style='{"padding":"20px","boxShadow":"0px rgba(0, 128, 128, 1)","margin":"30px auto","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"rgba(255, 255, 255, 0)","borderRadius":"10px","borderWidth":"1px","borderStyle":"solid"}'>
 
 				<form class="layui-form layui-form-pane add" lay-filter="myForm">
 					
-                    <div  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"rgba(255, 255, 255, 0)","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}' class="layui-form-item" pane>
+                    <div  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"rgba(255, 255, 255, 0)","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}' class="layui-form-item" pane>
 						<label  :style='{"width":"110px","padding":"0 12px 0 0","fontSize":"15px","color":"#333","textAlign":"left"}' class="layui-form-label">作业名称：</label>
 						<div class="layui-input-block">
-							<input :style='{"padding":"0 12px","boxShadow":"0 0 0px rgba(160, 67, 26, 1)","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"#fff","color":"rgba(160, 67, 26, 1)","borderRadius":"4px","textAlign":"left","borderWidth":"1px","fontSize":"15px","borderStyle":"solid","height":"40px"}' v-model="detail.zuoyemingcheng" type="text" :readonly="ro.zuoyemingcheng" name="zuoyemingcheng" id="zuoyemingcheng" autocomplete="off" class="layui-input">
+							<input :style='{"padding":"0 12px","boxShadow":"0 0 0px rgba(0, 128, 128, 1)","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"#fff","color":"rgba(0, 128, 128, 1)","borderRadius":"4px","textAlign":"left","borderWidth":"1px","fontSize":"15px","borderStyle":"solid","height":"40px"}' v-model="detail.zuoyemingcheng" type="text" :readonly="ro.zuoyemingcheng" name="zuoyemingcheng" id="zuoyemingcheng" autocomplete="off" class="layui-input">
 						</div>
 					</div>
-                    <div  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"rgba(255, 255, 255, 0)","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}' class="layui-form-item" pane>
+                    <div  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"rgba(255, 255, 255, 0)","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}' class="layui-form-item" pane>
 						<label  :style='{"width":"110px","padding":"0 12px 0 0","fontSize":"15px","color":"#333","textAlign":"left"}' class="layui-form-label">课程名称：</label>
 						<div class="layui-input-block">
-							<input :style='{"padding":"0 12px","boxShadow":"0 0 0px rgba(160, 67, 26, 1)","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"#fff","color":"rgba(160, 67, 26, 1)","borderRadius":"4px","textAlign":"left","borderWidth":"1px","fontSize":"15px","borderStyle":"solid","height":"40px"}' v-model="detail.kechengmingcheng" type="text" :readonly="ro.kechengmingcheng" name="kechengmingcheng" id="kechengmingcheng" autocomplete="off" class="layui-input">
+							<input :style='{"padding":"0 12px","boxShadow":"0 0 0px rgba(0, 128, 128, 1)","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"#fff","color":"rgba(0, 128, 128, 1)","borderRadius":"4px","textAlign":"left","borderWidth":"1px","fontSize":"15px","borderStyle":"solid","height":"40px"}' v-model="detail.kechengmingcheng" type="text" :readonly="ro.kechengmingcheng" name="kechengmingcheng" id="kechengmingcheng" autocomplete="off" class="layui-input">
 						</div>
 					</div>
-                    <div :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"rgba(255, 255, 255, 0)","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}' class="layui-form-item" pane>
+                    <div :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"rgba(255, 255, 255, 0)","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}' class="layui-form-item" pane>
 						<label :style='{"width":"110px","padding":"0 12px 0 0","fontSize":"15px","color":"#333","textAlign":"left"}' class="layui-form-label">作业图片：</label>
 						<div class="layui-input-block">
 							<div v-if="detail.zuoyetupian" style="display:inline-block;margin-right:10px;">
 								<img id="zuoyetupianImg" style="width: 100px;height: 100px;border-radius: 50%;border: 2px solid #EEEEEE;" :src="detail.zuoyetupian">
 								<input type="hidden" :value="detail.zuoyetupian" id="zuoyetupian" name="zuoyetupian" />
 							</div>
-							<button v-if="!ro.zuoyetupian" :style='{"padding":"0 10px","boxShadow":"0 0 0px rgba(255,0,0,.5)","margin":"0 10px 0 0","borderColor":"#ccc","backgroundColor":"rgba(160, 67, 26, 1)","color":"#fff","borderRadius":"8px","borderWidth":"0","width":"auto","fontSize":"14px","borderStyle":"solid","height":"44px"}' type="button" class="layui-btn btn-theme" id="zuoyetupianUpload">
+							<button v-if="!ro.zuoyetupian" :style='{"padding":"0 10px","boxShadow":"0 0 0px rgba(255,0,0,.5)","margin":"0 10px 0 0","borderColor":"#ccc","backgroundColor":"rgba(0, 128, 128, 1)","color":"#fff","borderRadius":"8px","borderWidth":"0","width":"auto","fontSize":"14px","borderStyle":"solid","height":"44px"}' type="button" class="layui-btn btn-theme" id="zuoyetupianUpload">
 								<i v-if="true" :style='{"color":"#fff","show":true,"fontSize":"14px"}' class="layui-icon">&#xe67c;</i>上传作业图片
 							</button>
 						</div>
 					</div>
-                    <div  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"rgba(255, 255, 255, 0)","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}' class="layui-form-item" pane>
+                    <div  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"rgba(255, 255, 255, 0)","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}' class="layui-form-item" pane>
 						<label  :style='{"width":"110px","padding":"0 12px 0 0","fontSize":"15px","color":"#333","textAlign":"left"}' class="layui-form-label">学号：</label>
 						<div class="layui-input-block">
-							<input :style='{"padding":"0 12px","boxShadow":"0 0 0px rgba(160, 67, 26, 1)","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"#fff","color":"rgba(160, 67, 26, 1)","borderRadius":"4px","textAlign":"left","borderWidth":"1px","fontSize":"15px","borderStyle":"solid","height":"40px"}' v-model="detail.xuehao" type="text" :readonly="ro.xuehao" name="xuehao" id="xuehao" autocomplete="off" class="layui-input">
+							<input :style='{"padding":"0 12px","boxShadow":"0 0 0px rgba(0, 128, 128, 1)","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"#fff","color":"rgba(0, 128, 128, 1)","borderRadius":"4px","textAlign":"left","borderWidth":"1px","fontSize":"15px","borderStyle":"solid","height":"40px"}' v-model="detail.xuehao" type="text" :readonly="ro.xuehao" name="xuehao" id="xuehao" autocomplete="off" class="layui-input">
 						</div>
 					</div>
-                    <div  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"rgba(255, 255, 255, 0)","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}' class="layui-form-item" pane>
+                    <div  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"rgba(255, 255, 255, 0)","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}' class="layui-form-item" pane>
 						<label  :style='{"width":"110px","padding":"0 12px 0 0","fontSize":"15px","color":"#333","textAlign":"left"}' class="layui-form-label">学生姓名：</label>
 						<div class="layui-input-block">
-							<input :style='{"padding":"0 12px","boxShadow":"0 0 0px rgba(160, 67, 26, 1)","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"#fff","color":"rgba(160, 67, 26, 1)","borderRadius":"4px","textAlign":"left","borderWidth":"1px","fontSize":"15px","borderStyle":"solid","height":"40px"}' v-model="detail.xueshengxingming" type="text" :readonly="ro.xueshengxingming" name="xueshengxingming" id="xueshengxingming" autocomplete="off" class="layui-input">
+							<input :style='{"padding":"0 12px","boxShadow":"0 0 0px rgba(0, 128, 128, 1)","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"#fff","color":"rgba(0, 128, 128, 1)","borderRadius":"4px","textAlign":"left","borderWidth":"1px","fontSize":"15px","borderStyle":"solid","height":"40px"}' v-model="detail.xueshengxingming" type="text" :readonly="ro.xueshengxingming" name="xueshengxingming" id="xueshengxingming" autocomplete="off" class="layui-input">
 						</div>
 					</div>
-                    <div  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"rgba(255, 255, 255, 0)","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}' class="layui-form-item" pane>
+                    <div  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"rgba(255, 255, 255, 0)","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}' class="layui-form-item" pane>
 						<label  :style='{"width":"110px","padding":"0 12px 0 0","fontSize":"15px","color":"#333","textAlign":"left"}' class="layui-form-label">作业评分：</label>
 						<div class="layui-input-block">
-							<input :style='{"padding":"0 12px","boxShadow":"0 0 0px rgba(160, 67, 26, 1)","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"#fff","color":"rgba(160, 67, 26, 1)","borderRadius":"4px","textAlign":"left","borderWidth":"1px","fontSize":"15px","borderStyle":"solid","height":"40px"}' v-model="detail.zuoyepingfen" type="text" :readonly="ro.zuoyepingfen" name="zuoyepingfen" id="zuoyepingfen" autocomplete="off" class="layui-input">
+							<input :style='{"padding":"0 12px","boxShadow":"0 0 0px rgba(0, 128, 128, 1)","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"#fff","color":"rgba(0, 128, 128, 1)","borderRadius":"4px","textAlign":"left","borderWidth":"1px","fontSize":"15px","borderStyle":"solid","height":"40px"}' v-model="detail.zuoyepingfen" type="text" :readonly="ro.zuoyepingfen" name="zuoyepingfen" id="zuoyepingfen" autocomplete="off" class="layui-input">
 						</div>
 					</div>
 
 
-					<div  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"rgba(255, 255, 255, 0)","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}' class="layui-form-item">
+					<div  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"rgba(255, 255, 255, 0)","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}' class="layui-form-item">
 						<div class="layui-input-block" style="text-align: right;">
 							<button :style='{"padding":"0 10px","boxShadow":"0 0 0px rgba(255,0,0,.5)","margin":"0 10px","borderColor":"#ccc","backgroundColor":"rgba(75, 92, 196, 1)","color":"#fff","borderRadius":"8px","borderWidth":"0","width":"25%","fontSize":"14px","borderStyle":"solid","height":"44px"}' class="layui-btn btn-submit" lay-submit lay-filter="*">提交</button>
-							<button :style='{"padding":"0 10px","boxShadow":"0 0 0px rgba(255,0,0,.5)","margin":"0 10px","borderColor":"#ccc","backgroundColor":"rgba(160, 67, 26, 1)","color":"rgba(255, 255, 255, 1)","borderRadius":"8px","borderWidth":"0","width":"25%","fontSize":"14px","borderStyle":"solid","height":"44px"}' type="reset" class="layui-btn layui-btn-primary">重置</button>
+							<button :style='{"padding":"0 10px","boxShadow":"0 0 0px rgba(255,0,0,.5)","margin":"0 10px","borderColor":"#ccc","backgroundColor":"rgba(0, 128, 128, 1)","color":"rgba(255, 255, 255, 1)","borderRadius":"8px","borderWidth":"0","width":"25%","fontSize":"14px","borderStyle":"solid","height":"44px"}' type="reset" class="layui-btn layui-btn-primary">重置</button>
 						</div>
 					</div>
 				</form>

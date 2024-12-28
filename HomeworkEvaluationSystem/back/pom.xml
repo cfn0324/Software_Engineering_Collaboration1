@@ -13,7 +13,7 @@
 	<artifactId>T071</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-schema</name>
-	<description>师生共评的作业管理系统</description>
+	<description>作业管理系统</description>
 
 	<properties>
 		<java.version>1.8</java.version>

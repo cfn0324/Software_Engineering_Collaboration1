@@ -2,7 +2,7 @@
   <div>
     <div class="container">
       <div class="login-form" style="backgroundColor:rgba(229, 238, 229, 0.07);borderRadius:10px">
-        <h1 class="h1" style="color:rgba(24, 103, 228, 1);fontSize:28px;">师生共评的作业管理系统注册</h1>
+        <h1 class="h1" style="color:rgba(24, 103, 228, 1);fontSize:28px;">作业管理系统注册</h1>
 		<el-form ref="rgsForm" class="rgs-form" :model="rgsForm" label-width="120px">
 			<!-- <div v-if="tableName=='xuesheng'" class="input-group">
 			   <div class="label">学号</div>

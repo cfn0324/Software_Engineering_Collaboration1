@@ -1,5 +1,5 @@
 
-var projectName = '师生共评的作业管理系统';
+var projectName = '作业管理系统';
 /**
  * 轮播图配置
  */

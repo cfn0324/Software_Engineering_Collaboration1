@@ -36,7 +36,7 @@
 			color: #2a8a15;
 			box-sizing: border-box;
 			height: 110px;
-			background-color: rgba(160, 67, 26, 1);
+			background-color: rgba(0, 128, 128, 1);
 			box-shadow: 0px 0px 0px #f9906f;
 			justify-content: space-between;
 			position: relative;
@@ -134,8 +134,8 @@
 			border-radius: 0px;
 			border-width: 1px;
 			border-style: solid;
-			border-color: rgba(160, 67, 26, 1);
-			background-color: rgba(160, 67, 26, 1);
+			border-color: rgba(0, 128, 128, 1);
+			background-color: rgba(0, 128, 128, 1);
 			box-shadow: 0px 0px 0px #1685a9;
 		}
 		#header .navs li:hover {
@@ -144,8 +144,8 @@
 			border-radius: 0px;
 			border-width: 0px;
 			border-style: solid;
-			border-color: rgba(160, 67, 26, 1);
-			background-color: rgba(160, 67, 26, 1);
+			border-color: rgba(0, 128, 128, 1);
+			background-color: rgba(0, 128, 128, 1);
 			box-shadow: 0 0 0px ;
 		}
 	</style>
@@ -155,7 +155,7 @@
 			<div v-if='true' class="nav-top">
 			  <img v-if='false' class="nav-top-img" src='http://codegen.caihongy.cn/20210116/19006e072b0f4e5eb28ec9d519c5c841.png'>
 			  <div v-if="true" class="nav-top-title">{{projectName}}</div>
-			  <div class="nav-top-tel">欢迎来到我的网站</div>
+			  <div class="nav-top-tel"></div>
 			</div>
 		    <div class="navs">
 		    	<!-- <div class="logo" style="font-size: 20px;top: 32px;color: #fff;font-weight: bold;margin-left: -200px;width: 240px;" v-text="projectName"></div> -->
@@ -176,11 +176,11 @@
 
 		<iframe src="./pages/home/home.html" id="iframe" frameborder="0" scrolling="no" width="100%" onload="changeFrameHeight"></iframe>
 
-    <div id="tabbar" v-if="true" class="tabbar" :style='{"padding":"20px 0","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"10px 0 0 0","borderColor":"rgba(0,0,0,.3)","backgroundColor":"rgba(160, 67, 26, 1)","borderRadius":"0","borderWidth":"0","borderStyle":"solid"}' style="position: relative;z-index: 999;">
+    <div id="tabbar" v-if="true" class="tabbar" :style='{"padding":"20px 0","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"10px 0 0 0","borderColor":"rgba(0,0,0,.3)","backgroundColor":"rgba(0, 128, 128, 1)","borderRadius":"0","borderWidth":"0","borderStyle":"solid"}' style="position: relative;z-index: 999;">
       <img v-if='false' :style='{"boxShadow":"0 0 6px rgba(255,0,0,.8)","margin":"0 auto","borderColor":"rgba(0,0,0,.3)","borderRadius":"100%","borderWidth":"1px","width":"44px","borderStyle":"solid","height":"44px"}' style='display: block;' src='http://codegen.caihongy.cn/20201024/ed5e326ca66f403aa3197b5fbb4ec733.jpg' />
       <div :style='{"padding":"0 10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"10px auto","borderColor":"rgba(0,0,0,1)","backgroundColor":"#000","color":"#fff","textAlign":"center","borderRadius":"0","borderWidth":"0","width":"100%","lineHeight":"32px","fontSize":"14px","borderStyle":"solid"}' class="company"></div>
       <div :style='{"padding":"0 10px","boxShadow":"0 0 6px rgba(255,0,0,0)","margin":"10px auto","borderColor":"rgba(0,0,0,1)","backgroundColor":"#000","color":"#fff","textAlign":"center","borderRadius":"0","borderWidth":"0","width":"100%","lineHeight":"32px","fontSize":"14px","borderStyle":"solid"}' class="record"></div>
-      <div :style='{"padding":"0 10px","boxShadow":"0 0 0px rgba(255,0,0,0)","margin":"10px auto 30px auto","borderColor":"rgba(255,255,255,1)","backgroundColor":"rgba(160, 67, 26, 1)","color":"#fff","textAlign":"center","borderRadius":"0","borderWidth":"1px 0","width":"40%","lineHeight":"32px","fontSize":"15px","borderStyle":"solid"}' class="desc">联系电话：4008000000 | 咨询邮箱：support@21epub.com</div>
+      <div :style='{"padding":"0 10px","boxShadow":"0 0 0px rgba(255,0,0,0)","margin":"10px auto 30px auto","borderColor":"rgba(255,255,255,1)","backgroundColor":"rgba(0, 128, 128, 1)","color":"#fff","textAlign":"center","borderRadius":"0","borderWidth":"1px 0","width":"40%","lineHeight":"32px","fontSize":"15px","borderStyle":"solid"}' class="desc">联系电话：16680655171 | 咨询邮箱：2249520721@qq.com</div>
     </div>
 
 		<script src="./xznstatic/js/jquery-1.11.3.min.js"></script>

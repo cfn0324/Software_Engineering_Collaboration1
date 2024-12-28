@@ -48,7 +48,7 @@
 			border-style: solid;
 			border-color: rgba(0,0,0,.3);
 			border-radius: 6px;
-			background-color: rgba(160, 67, 26, 1);
+			background-color: rgba(0, 128, 128, 1);
 			box-shadow: 0 0 6px rgba(255,0,0,.8);
 		}
 
@@ -78,7 +78,7 @@
 			color: rgba(17, 17, 17, 1);
 			border-width: 0px 0px 1px 0px;
 			border-style: solid;
-			border-color: rgba(160, 67, 26, 1);
+			border-color: rgba(0, 128, 128, 1);
 			border-radius: 0;
 			background-color: #fff;
 			box-shadow: 0 0 0px rgba(255,0,0,0);
@@ -103,9 +103,9 @@
 			color: #fff;
 			border-width: 0;
 			border-style: solid;
-			border-color: rgba(160, 67, 26, 1);
+			border-color: rgba(0, 128, 128, 1);
 			border-radius: 0;
-			background-color: rgba(160, 67, 26, 1);
+			background-color: rgba(0, 128, 128, 1);
 			box-shadow: 0 0 6px rgba(255,0,0,0);
 		}
 		.center-container .layui-nav-tree .layui-nav-item a {
@@ -131,11 +131,11 @@
 			padding: 0 12px;
 			height: 40px;
 			font-size: 15px;
-			color: rgba(160, 67, 26, 1);
+			color: rgba(0, 128, 128, 1);
 			border-radius: 4px;
 			border-width: 1px;
 			border-style: solid;
-			border-color: rgba(160, 67, 26, 1);
+			border-color: rgba(0, 128, 128, 1);
 			background-color: #fff;
 			box-shadow: 0 0 0px rgba(255,0,0,.8);
 			text-align: left;
@@ -144,11 +144,11 @@
 			padding: 0 12px;
 			height: 40px;
 			font-size: 15px;
-			color: rgba(160, 67, 26, 1);
+			color: rgba(0, 128, 128, 1);
 			border-radius: 4px;
 			border-width: 1px;
 			border-style: solid;
-			border-color: rgba(160, 67, 26, 1);
+			border-color: rgba(0, 128, 128, 1);
 			background-color: #fff;
 			box-shadow: 0 0 0px rgba(255,0,0,.8);
 			text-align: left;
@@ -157,11 +157,11 @@
 			padding: 0 12px;
 			height: 40px;
 			font-size: 15px;
-			color: rgba(160, 67, 26, 1);
+			color: rgba(0, 128, 128, 1);
 			border-radius: 4px;
 			border-width: 1px;
 			border-style: solid;
-			border-color: rgba(160, 67, 26, 1);
+			border-color: rgba(0, 128, 128, 1);
 			background-color: #fff;
 			box-shadow: 0 0 0px rgba(255,0,0,.8);
 			text-align: left;
@@ -192,14 +192,14 @@
 			<div class="line-container">
 				<p class="line" style="background: #EEEEEE;"> 个人中心 </p>
 			</div> -->
-			<div class="index-title" :style='{"padding":"10px","boxShadow":"0 0 2px rgba(160, 67, 26, 1)","margin":"10px auto","borderColor":"rgba(0,0,0,.3)","backgroundColor":"rgba(160, 67, 26, 1)","color":"rgba(255, 255, 255, 1)","borderRadius":"4px","borderWidth":"0","fontSize":"20px","borderStyle":"solid","height":"auto"}'>
+			<div class="index-title" :style='{"padding":"10px","boxShadow":"0 0 2px rgba(0, 128, 128, 1)","margin":"10px auto","borderColor":"rgba(0,0,0,.3)","backgroundColor":"rgba(0, 128, 128, 1)","color":"rgba(255, 255, 255, 1)","borderRadius":"4px","borderWidth":"0","fontSize":"20px","borderStyle":"solid","height":"auto"}'>
 			  <span>USER / CENTER</span><span>个人中心</span>
 			</div>
 			<!-- 标题 -->
 
 			<div class="center-container">
 				<!-- 个人中心菜单 config.js-->
-				<div class="left-container" :style='{"padding":"0","boxShadow":"0px ","margin":"0","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"#fff","borderRadius":"0","borderWidth":"0px ","width":"160px","borderStyle":"solid"}'>
+				<div class="left-container" :style='{"padding":"0","boxShadow":"0px ","margin":"0","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"#fff","borderRadius":"0","borderWidth":"0px ","width":"160px","borderStyle":"solid"}'>
 					<ul class="layui-nav layui-nav-tree">
 						<li v-for="(item,index) in centerMenu" v-bind:key="index" class="layui-nav-item" :class="index==0?'layui-this':''">
 							<a :href="'javascript:jump(\''+item.url+'\')'">{{item.name}}</a>
@@ -208,29 +208,29 @@
 				</div>
 				<!-- 个人中心菜单 -->
 				<!-- 个人中心 -->
-				<div class="right-container" :style='{"padding":"20px","boxShadow":"0px rgba(255,0,0,.8)","margin":"0","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"#fff","borderRadius":"0","borderWidth":"1px","borderStyle":"solid"}'>
+				<div class="right-container" :style='{"padding":"20px","boxShadow":"0px rgba(255,0,0,.8)","margin":"0","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"#fff","borderRadius":"0","borderWidth":"1px","borderStyle":"solid"}'>
 					<form class="layui-form" lay-filter="myForm">
 						<!-- 主键 -->
 						<input type="hidden" name="id" id="id" />
-                        <div class="layui-form-item"  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"#fff","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}'>
+                        <div class="layui-form-item"  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"#fff","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}'>
 							<label  :style='{"width":"110px","padding":"0 12px 0 0","fontSize":"15px","color":"#333","textAlign":"left"}' class="layui-form-label">工号</label>
 							<div class="layui-input-block input">
 								<input type="text" name="gonghao" id="gonghao" placeholder="工号" autocomplete="off" class="layui-input">
 							</div>
 						</div>
-                        <div class="layui-form-item"  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"#fff","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}'>
+                        <div class="layui-form-item"  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"#fff","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}'>
 							<label  :style='{"width":"110px","padding":"0 12px 0 0","fontSize":"15px","color":"#333","textAlign":"left"}' class="layui-form-label">密码</label>
 							<div class="layui-input-block input">
 								<input type="password" name="mima" id="mima" placeholder="密码" autocomplete="off" class="layui-input">
 							</div>
 						</div>
-                        <div class="layui-form-item"  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"#fff","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}'>
+                        <div class="layui-form-item"  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"#fff","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}'>
 							<label  :style='{"width":"110px","padding":"0 12px 0 0","fontSize":"15px","color":"#333","textAlign":"left"}' class="layui-form-label">教师姓名</label>
 							<div class="layui-input-block input">
 								<input type="text" name="jiaoshixingming" id="jiaoshixingming" placeholder="教师姓名" autocomplete="off" class="layui-input">
 							</div>
 						</div>
-                        <div class="layui-form-item"  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"#fff","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}'>
+                        <div class="layui-form-item"  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"#fff","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}'>
 							<label  :style='{"width":"110px","padding":"0 12px 0 0","fontSize":"15px","color":"#333","textAlign":"left"}' class="layui-form-label">性别</label>
 							<div class="layui-input-block select">
 								<select name="xingbie" id="xingbie">
@@ -239,7 +239,7 @@
 								</select>
 							</div>
 						</div>
-                        <div class="layui-form-item"  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"#fff","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}'>
+                        <div class="layui-form-item"  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"#fff","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}'>
 							<label  :style='{"width":"110px","padding":"0 12px 0 0","fontSize":"15px","color":"#333","textAlign":"left"}' class="layui-form-label">职称</label>
 							<div class="layui-input-block select">
 								<select name="zhicheng" id="zhicheng">
@@ -248,29 +248,29 @@
 								</select>
 							</div>
 						</div>
-                        <div class="layui-form-item"  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"#fff","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}'>
+                        <div class="layui-form-item"  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"#fff","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}'>
 							<label  :style='{"width":"110px","padding":"0 12px 0 0","fontSize":"15px","color":"#333","textAlign":"left"}' class="layui-form-label">电话</label>
 							<div class="layui-input-block input">
 								<input type="text" name="dianhua" id="dianhua" placeholder="电话" autocomplete="off" class="layui-input">
 							</div>
 						</div>
-                        <div class="layui-form-item"  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"#fff","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}'>
+                        <div class="layui-form-item"  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"#fff","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}'>
 							<label  :style='{"width":"110px","padding":"0 12px 0 0","fontSize":"15px","color":"#333","textAlign":"left"}' class="layui-form-label">邮箱</label>
 							<div class="layui-input-block input">
 								<input type="text" name="youxiang" id="youxiang" placeholder="邮箱" autocomplete="off" class="layui-input">
 							</div>
 						</div>
-                        <div class="layui-form-item"  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"#fff","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}'>
+                        <div class="layui-form-item"  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"#fff","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}'>
 							<label  :style='{"width":"110px","padding":"0 12px 0 0","fontSize":"15px","color":"#333","textAlign":"left"}' style="opacity: 0;" class="layui-form-label">头像</label>
 							<div class="layui-input-block">
-								<img id="zhaopianImg" style="width: 100px;height: 100px;border-radius: 50%;border: 2px solid #EEEEEE;" :style='{"boxShadow":"0 0 3px rgba(160, 67, 26, 1)","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"#fff","borderRadius":"10px","borderWidth":"1px","width":"80px","borderStyle":"solid","height":"80px"}' src="../../img/avator.png">
+								<img id="zhaopianImg" style="width: 100px;height: 100px;border-radius: 50%;border: 2px solid #EEEEEE;" :style='{"boxShadow":"0 0 3px rgba(0, 128, 128, 1)","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"#fff","borderRadius":"10px","borderWidth":"1px","width":"80px","borderStyle":"solid","height":"80px"}' src="../../img/avator.png">
 								<input type="hidden" id="zhaopian" name="zhaopian" />
 							</div>
 						</div>
-						<div class="layui-form-item"  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(160, 67, 26, 1)","backgroundColor":"#fff","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}'>
+						<div class="layui-form-item"  :style='{"padding":"10px","boxShadow":"0 0 0px rgba(255,0,0,.8)","margin":"0 0 10px 0","borderColor":"rgba(0, 128, 128, 1)","backgroundColor":"#fff","borderRadius":"1px","borderWidth":"0 0 1px 0","borderStyle":"solid"}'>
 							<label  :style='{"width":"110px","padding":"0 12px 0 0","fontSize":"15px","color":"#333","textAlign":"left"}' style="opacity: 0;" class="layui-form-label">图片</label>
 							<div class="layui-input-block">
-								<button :style='{"padding":"0 10px","boxShadow":"0 0 0px rgba(255,0,0,.5)","margin":"0 10px 0 0","borderColor":"#ccc","backgroundColor":"rgba(160, 67, 26, 1)","color":"#fff","borderRadius":"8px","borderWidth":"0","width":"auto","fontSize":"14px","borderStyle":"solid","height":"44px"}' type="button" class="layui-btn btn-theme" id="zhaopianUpload">
+								<button :style='{"padding":"0 10px","boxShadow":"0 0 0px rgba(255,0,0,.5)","margin":"0 10px 0 0","borderColor":"#ccc","backgroundColor":"rgba(0, 128, 128, 1)","color":"#fff","borderRadius":"8px","borderWidth":"0","width":"auto","fontSize":"14px","borderStyle":"solid","height":"44px"}' type="button" class="layui-btn btn-theme" id="zhaopianUpload">
 									<i v-if="true" :style='{"color":"#fff","show":true,"fontSize":"14px"}' class="layui-icon">&#xe67c;</i>上传图片
 								</button>
 							</div>
@@ -278,7 +278,7 @@
 
 						<div class="layui-form-item">
 							<div class="layui-input-block" style="display: flex;flex-wrap:wrap;">
-								<button :style='{"padding":"0 10px","boxShadow":"0 0 0px rgba(255,0,0,.5)","margin":"10px auto 0","borderColor":"#ccc","backgroundColor":"rgba(160, 67, 26, 1)","color":"#fff","borderRadius":"8px","borderWidth":"0","width":"30%","fontSize":"15px","borderStyle":"solid","height":"44px"}' class="layui-btn btn-submit btn-theme" lay-submit lay-filter="*">更新信息</button>
+								<button :style='{"padding":"0 10px","boxShadow":"0 0 0px rgba(255,0,0,.5)","margin":"10px auto 0","borderColor":"#ccc","backgroundColor":"rgba(0, 128, 128, 1)","color":"#fff","borderRadius":"8px","borderWidth":"0","width":"30%","fontSize":"15px","borderStyle":"solid","height":"44px"}' class="layui-btn btn-submit btn-theme" lay-submit lay-filter="*">更新信息</button>
                 <button :style='{"padding":"0 10px","boxShadow":"0 0 0px rgba(255,0,0,.5)","margin":"10px auto","borderColor":"#ccc","backgroundColor":"rgba(234, 205, 118, 1)","color":"rgba(27, 25, 25, 1)","borderRadius":"8px","borderWidth":"0","width":"30%","fontSize":"14px","borderStyle":"solid","height":"44px"}' @click="logout" class="layui-btn btn-submit">退出登录</button>
 							</div>
 						</div>
